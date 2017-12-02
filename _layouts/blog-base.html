@@ -1,54 +1,59 @@
-<!DOCTYPE html>
-{% include snippets/get-lang.html %}
+<!DOCTYPE html> {% include snippets/get-lang.html %}
 <html lang="{{ __return }}">
-  <head>
-    {% include common-head.html %}
-    {% include head-icons-rel.html %}
-    {% assign __path = '/assets/css/blog.css' %}
-    {% include snippets/prepend-baseurl.html %}
-    <link rel="stylesheet" href="{{ __return }}">
-    <style>
-    {% if page.picture_frame == 'shadow' %}
-      .m-article-content img:not(.emoji) {
-        box-shadow: 0 0 5px rgba(0, 0, 0, .4);
-      }
-    {% endif %}
-    </style>
-    <script src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
-    {% include utils/mathjax.html %}
-  </head>
-  <body>
-  	
-  	<div id="demo" style="width: 100%; height: 250px;"></div>
+
+	<head>
+		{% include common-head.html %} {% include head-icons-rel.html %} {% assign __path = '/assets/css/blog.css' %} {% include snippets/prepend-baseurl.html %}
+		<link rel="stylesheet" href="{{ __return }}">
+		<style>
+			{
+				% if page.picture_frame=='shadow' %
+			}
+			
+			.m-article-content img:not(.emoji) {
+				box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+			}
+			
+			{
+				% endif %
+			}
+		</style>
+		<script src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+		<script src="{{ '/js/jparticles.js' | prepend: site.baseurl }}"></script>
+		<script src="{{ '/js/particle.js' | prepend: site.baseurl }}"></script>
+		{% include utils/mathjax.html %}
+	</head>
+
+	<body>
+
+		<div id="demo" style="width: 100%; height: 250px;"></div>
 
 		<script>
 			// 使用 new JParticles.特效名 创建特效
 			new JParticles.particle('#demo', {
 				color: ['#4586F3', '#EB4334', '#FBBD06', '#35AA53'],
 				maxSpeed: 0.5,
-				minSpeed:0.1,
+				minSpeed: 0.1,
 				lineShape: 'cube',
 				range: 300,
 				proximity: 100,
-				parallaxLayer:[1, 3, 5, 10],
+				parallaxLayer: [1, 3, 5, 10],
 				// 开启视差效果
 				parallax: true
 
 			});
 		</script>
-  	
-    <div class="m-page-stage js-page-stage">{{ content }}</div>
-    {% include blog/footer.html %}
-    <script>
-      $(function() {
-        // display coding language
-        $(".highlight").each(function() {
-          $(this).attr("data-lang", $(this).find("code").attr("data-lang"));
-        });
-      });
-    </script>
-    {% if ga_tracking_id and site.isdebug == false %}
-      {% include utils/google-analytics.html %}
-    {% endif %}
-  </body>
+
+		<div class="m-page-stage js-page-stage">{{ content }}</div>
+		{% include blog/footer.html %}
+		<script>
+			$(function() {
+				// display coding language
+				$(".highlight").each(function() {
+					$(this).attr("data-lang", $(this).find("code").attr("data-lang"));
+				});
+			});
+		</script>
+		{% if ga_tracking_id and site.isdebug == false %} {% include utils/google-analytics.html %} {% endif %}
+	</body>
+
 </html>
