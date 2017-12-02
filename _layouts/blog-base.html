@@ -36,18 +36,18 @@
 		</script>
 		<script>
 			// 使用 new JParticles.特效名 创建特效
-//			new JParticles.particle('#demo', {
-//				color: ['#4586F3', '#EB4334', '#FBBD06', '#35AA53'],
-//				maxSpeed: 0.5,
-//				minSpeed: 0.1,
-//				lineShape: 'cube',
-//				range: 300,
-//				proximity: 100,
-//				parallaxLayer: [1, 3, 5, 10],
-//				// 开启视差效果
-//				parallax: true
-//
-//			});
+			new JParticles.particle('.m-page-header', {
+				color: ['#4586F3', '#EB4334', '#FBBD06', '#35AA53'],
+				maxSpeed: 0.5,
+				minSpeed: 0.1,
+				lineShape: 'cube',
+				range: 300,
+				proximity: 100,
+				parallaxLayer: [1, 3, 5, 10],
+				// 开启视差效果
+				parallax: true
+
+			});
 		</script>
 		{% if ga_tracking_id and site.isdebug == false %} {% include utils/google-analytics.html %} {% endif %}
 	</body>
