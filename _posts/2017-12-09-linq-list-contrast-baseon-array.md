@@ -2,9 +2,12 @@
 layout: post
 title:  "使用Linq筛选满足数组条件的List集合!"
 date:   2017-12-09
-categories: jekyll-update
+categories: "readme"
+tags: [Linq, C#]
+author: xxl
+comment: false
 ---
-  ##使用Linq从List中删选出满足指定条件的元素，其中条件为：只要List中的元素  数组中任意存在
+####使用Linq从List中删选出满足指定条件的元素，其中条件为：只要List中的元素  数组中任意存在
  
 
 {% highlight ruby %}
