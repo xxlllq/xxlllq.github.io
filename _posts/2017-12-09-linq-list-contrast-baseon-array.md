@@ -22,23 +22,28 @@ comment: false
 {% endhighlight %}
 
 * Scene One： 情景一  
+
 用来比较的数组：
 {% highlight C# %}
  {"1","3","4"} or {"1","4","3"} or {"3","1","4"} or {"3","4","1"} or {"4","1","3"} or {"4","3","1"}
 {% endhighlight %} 
+
 使用方法比较后，结果为：
 {% highlight C# %}
 [{"163.00""3.00","406.00"},{"480.00","340.00","130.00"}]
 {% endhighlight %} 
 
 * Scene Two： 情景二
+
 {% highlight C# %}
     base contrast array is
       {"1","","4"} or  {"4","","1"} or  {"","1","4"} or  {"","4","1"} or  {"1","4",""} or  {"4","1",""}
     after contrast,the result is
       [{"163.00""3.00","406.00"},{"480.00","340.00","130.00"}]
 {% endhighlight %}
+
 * Scene There： 情景三
+
 {% highlight C# %}
     base contrast array is
       {"1","",""} or  {"","1",""} or  {"","","1"} 
