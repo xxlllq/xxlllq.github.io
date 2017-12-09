@@ -13,7 +13,7 @@ comment: false
 
 **List**
 {% highlight C# %}
- List<Size> strList = new List<Size>();      
+ List<Size> strList = new List<Size>();
  strList.Add(new Size { L = "225.00", W = "170.00", T = "38.00" });
  strList.Add(new Size { L = "505.00", W = "158.00", T = "162.00" });
  strList.Add(new Size { L = "480.00", W = "340.00", T = "130.00" });
@@ -21,7 +21,7 @@ comment: false
  strList.Add(new Size { L = "54.00", W = "23.00", T = "41.00" });
 {% endhighlight %}
 
-* Scene One： 情景一  
+* Scene One： 情景一  </br>
 
 用来比较的数组：
 {% highlight C# %}
@@ -33,23 +33,29 @@ comment: false
 [{"163.00""3.00","406.00"},{"480.00","340.00","130.00"}]
 {% endhighlight %} 
 
-* Scene Two： 情景二
+* Scene Two： 情景二</br>
 
+用来比较的数组：
 {% highlight C# %}
-    base contrast array is
-      {"1","","4"} or  {"4","","1"} or  {"","1","4"} or  {"","4","1"} or  {"1","4",""} or  {"4","1",""}
-    after contrast,the result is
-      [{"163.00""3.00","406.00"},{"480.00","340.00","130.00"}]
+ {"1","","4"} or  {"4","","1"} or  {"","1","4"} or  {"","4","1"} or  {"1","4",""} or  {"4","1",""}
+{% endhighlight %} 
+
+使用方法比较后，结果为：
+{% highlight C# %}
+[{"163.00""3.00","406.00"},{"480.00","340.00","130.00"}]
 {% endhighlight %}
 
-* Scene There： 情景三
+* Scene There： 情景三</br>
 
+用来比较的数组：
 {% highlight C# %}
-    base contrast array is
-      {"1","",""} or  {"","1",""} or  {"","","1"} 
-    after contrast,the result is
-      [{"225.00","170.00","38.00},{"505.00","158.00","162.00"},
-      {"163.00""3.00","406.00"},{"480.00","340.00","130.00"}]
+ {"1","",""} or  {"","1",""} or  {"","","1"} 
+{% endhighlight %} 
+
+使用方法比较后，结果为：
+{% highlight C# %}
+[{"225.00","170.00","38.00},{"505.00","158.00","162.00"},
+ {"163.00""3.00","406.00"},{"480.00","340.00","130.00"}]
 {% endhighlight %}
 #### Class Is
 {% highlight C# %}
