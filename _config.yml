@@ -3,7 +3,7 @@
 baseurl: /
 title: 梅花西飞博客
 description: > #this means to ignore newlines until "nav_lists:"
-  Someone's Blog
+  梅花西飞的博客
 
 nav_lists:
   - titles:
