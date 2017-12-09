@@ -48,7 +48,7 @@ public class Size
 {
   public string L { get; set; }
   public string W { get; set; }
-  public string T { get; set; }
+  public string T { get; set; }
 }
 {% endhighlight %}
 
