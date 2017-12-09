@@ -9,7 +9,7 @@ comment: false
 ---
 使用Linq从List中删选出满足指定条件的元素，其中条件为：给定任意数组（string、与List元素同维数），只要List中的元素包含数组中给定元素，则认为此List的元素符合条件。
  
-#### 案例
+## 案例
 {% highlight C# %}
  List<Size> strList = new List<Size>();
  strList.Add(new Size { L = "225.00", W = "170.00", T = "38.00" });
