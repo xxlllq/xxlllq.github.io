@@ -7,19 +7,55 @@ tags: [Linq, C#]
 author: xxl
 comment: false
 ---
-####使用Linq从List中删选出满足指定条件的元素，其中条件为：只要List中的元素  数组中任意存在
+使用Linq从List中删选出满足指定条件的元素，其中条件为：只要List中的元素包含数组中任意存在
  
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+### Linq_List_Contrast_Baseon_Array 使用Linq筛选满足数组条件的List集合
+#### For Example: 案例
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+**List**
+``` C#
+    List<Size> strList = new List<Size>();      
+    strList.Add(new Size { L = "225.00", W = "170.00", T = "38.00" });
+    strList.Add(new Size { L = "505.00", W = "158.00", T = "162.00" });
+    strList.Add(new Size { L = "480.00", W = "340.00", T = "130.00" });
+    strList.Add(new Size { L = "163.00", W = "3.00", T = "406.00" });
+    strList.Add(new Size { L = "54.00", W = "23.00", T = "41.00" });
+```
+* Scene One： 情景一  
+```
+    base contrast array is 用来比较的数组
+       {"1","3","4"} or {"1","4","3"} or {"3","1","4"} or {"3","4","1"} or {"4","1","3"} or {"4","3","1"}
+    after contrast,the result is 使用方法比较后，结果为
+       [{"163.00""3.00","406.00"},{"480.00","340.00","130.00"}]
+``` 
+* Scene Two： 情景二
+```
+    base contrast array is
+      {"1","","4"} or  {"4","","1"} or  {"","1","4"} or  {"","4","1"} or  {"1","4",""} or  {"4","1",""}
+    after contrast,the result is
+      [{"163.00""3.00","406.00"},{"480.00","340.00","130.00"}]
+```
+* Scene There： 情景三
+```
+    base contrast array is
+      {"1","",""} or  {"","1",""} or  {"","","1"} 
+    after contrast,the result is
+      [{"225.00","170.00","38.00},{"505.00","158.00","162.00"},
+      {"163.00""3.00","406.00"},{"480.00","340.00","130.00"}]
+```
+#### Class Is
+``` C#
+public class Size
+{
+  public string L { get; set; }
+  public string W { get; set; }
+  public string T { get; set; }
+}
+```
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+
+
+Github地址传送门 [使用Linq筛选满足数组条件的List集合]
+
+[使用Linq筛选满足数组条件的List集合]: https://github.com/xxlllq/Linq_List_Contrast_Baseon_Array
