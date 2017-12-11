@@ -19,16 +19,29 @@ comment: false
 10 | 107834689****  | 
 </center>
 <span style="color:red">test</span>
-<table style="margin:0 auoto">
+<table style="display:grid">
     <tr>
-        <td>列一</td> 
-        <td>列二</td> 
+        <td>序号</td> 
+        <td>物流号</td> 
    </tr>
     <tr>
-        <td rowspan="2">合并列</td>    
-        <td >行二列二</td>  
+        <td >1</td>    
+        <td >107834689****</td> 
     </tr>
     <tr>
-        <td >行三列二</td>  
+        <td >2</td>  
+        <td >107834689****</td>  
+    </tr>
+    <tr>
+        <td >3</td>  
+        <td >107834689****</td>  
+    </tr>
+    <tr>
+        <td >*</td>  
+        <td >107834689****</td>  
+    </tr>
+    <tr>
+        <td >5</td>  
+        <td >107834689****</td>  
     </tr>
 </table>
