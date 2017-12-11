@@ -19,3 +19,16 @@ comment: false
 10 | 107834689****  | 
 </center>
 <span style="color:red">test</span>
+<table>
+    <tr>
+        <td>列一</td> 
+        <td>列二</td> 
+   </tr>
+    <tr>
+        <td rowspan="2">合并列</td>    
+        <td >行二列二</td>  
+    </tr>
+    <tr>
+        <td >行三列二</td>  
+    </tr>
+</table>
