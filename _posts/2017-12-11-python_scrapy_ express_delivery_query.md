@@ -7,7 +7,8 @@ tags: [Python]
 author: xxl
 comment: false
 ---
-利用Python爬虫批量获取物流（快递）订单列表的运输路线，测试数据如下表格：
+利用Python爬虫批量获取物流（快递）订单列表的运输路线，测试数据如下表格：  
+
 序号 | 物流号 | cat
 ----|------|----
 foo | foo  | foo
