@@ -19,7 +19,7 @@ comment: false
 10 | 107834689****  | 
 </center>
 <span style="color:red">test</span>
-<table>
+<table align="center">
     <tr>
         <td>列一</td> 
         <td>列二</td> 
