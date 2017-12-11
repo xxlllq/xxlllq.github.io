@@ -7,9 +7,9 @@ tags: [Python]
 author: xxl
 comment: false
 ---
-利用Python爬虫批量获取物流（快递EMS）订单列表的运输路线，测试数据如下表格：  
+利用Python爬虫批量获取物流（快递EMS）订单列表的运输路线，测试数据如下表格：
 <div style="margin:0 auto">
-<table style="display:grid">
+<table>
     <tr>
         <td>序号</td> 
         <td>物流号</td> 
