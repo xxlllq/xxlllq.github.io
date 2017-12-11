@@ -20,7 +20,7 @@ comment: false
  strList.Add(new Size { L = "163.00", W = "3.00", T = "406.00" });
  strList.Add(new Size { L = "54.00", W = "23.00", T = "41.00" });
 {% endhighlight %}
-
+ 
 * 情景一
 
 用来比较的数组：
@@ -30,7 +30,8 @@ comment: false
 使用方法比较后，结果为：
 {% highlight C# %}
 [{"163.00""3.00","406.00"},{"480.00","340.00","130.00"}]
-{% endhighlight %} 
+{% endhighlight %}
+
 * 情景二
 
 用来比较的数组：
