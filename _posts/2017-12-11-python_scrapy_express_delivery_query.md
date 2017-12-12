@@ -21,10 +21,12 @@ header = {
     'Accept': '',
     'Accept-Encoding': '',
     'Accept-Language': '',
-    'Connection': 'keep-alive',
+    'Connection': '',
     'Cookie': '',
     'User-Agent': ''
 }
 ```
-
-
+<p style="text-indent: 2em">
+<p style="text-indent: 2em">首先我们需要获取浏览器真实发送请求的各项参数，我们输入正确的订单号（EMS），通过浏览器F12、Network查看本次的请求如下：</p>
+<div style="text-align:center"><img width="60%" height="auto" src="/assets/images/post/2017/2017-12-11-python_scrapy_express_delivery_query/scrapy_browser.png"/></div>
+<p style="text-indent: 2em">接下来就是将图中与header对应字段属性值填充到我们构造的header中，</p>
