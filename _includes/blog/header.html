@@ -15,7 +15,7 @@
 				</li>
 				{% if site.paths.all %} {% assign __path = site.paths.all %} {% else %} {% assign __path = '/all.html' %} {% endif %} {% include snippets/prepend-baseurl.html %} {% assign href = __return %} {% assign __locale = site.data.locale.NAV.ALL %} {% include snippets/locale-to-string.html %}
 				<li>
-					<a href="{{ href | append: " ?tag=" | replace: '//', '/'}}">{{ __return }}</a>
+					<a href="{{ href | append: "?tag=" | replace: '//', '/'}}">{{ __return }}</a>
 				</li>
 				{% for list in site.nav_lists %} {% assign __path = list.url %} {% include snippets/prepend-baseurl.html %} {% assign href = __return %} {% assign __locale = list.titles %} {% include snippets/locale-to-string.html %}
 				<li>
