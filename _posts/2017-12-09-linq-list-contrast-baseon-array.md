@@ -9,7 +9,7 @@ comment: false
 ---
 使用Linq从List中删选出满足指定条件的元素，其中条件为：给定任意数组（string、与List元素同维数），只要List中的元素包含数组中给定元素，则认为此List的元素符合条件。
 
-<p style="text-indent: 2em">几周前在做项目的时候，需要实现一个功能：利用“长\*宽\*高”的这种形式搜索数据。需要达到的效果就是输入“num1\*num2\*num3”，其中num1、num2、num3的组合不确定，简单来说就是“num1\*num2\*num3”需要匹配“长\*宽\*高”、“长\*高\*款”、“宽\*长\*高”，……，等6种组合。</p>
+几周前在做项目的时候，需要实现一个功能：利用“长\*宽\*高”的这种形式搜索数据。需要达到的效果就是输入“num1\*num2\*num3”，其中num1、num2、num3的组合不确定，简单来说就是“num1\*num2\*num3”需要匹配“长\*宽\*高”、“长\*高\*款”、“宽\*长\*高”，……，等6种组合。
 
 ## 案例
 {% highlight C# %}
@@ -67,5 +67,5 @@ public class Size
 
 
 
-Github地址传送门  <a href="https://github.com/xxlllq/Linq_List_Contrast_Baseon_Array" target="_blank">使用Linq筛选满足数组条件的List集合 </a>
+Github地址传送门  <a href="https://github.com/xxlllq/Linq_List_Contrast_Baseon_Array" >使用Linq筛选满足数组条件的List集合 </a>
 
