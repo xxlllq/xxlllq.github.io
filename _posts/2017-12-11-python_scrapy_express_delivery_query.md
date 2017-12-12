@@ -7,7 +7,7 @@ tags: [Python]
 author: xxl
 comment: false
 ---
-利用Python爬虫批量获取物流（快递EMS）订单列表的运输路线，源码可在[Github]查看，测试数据如下表格：
+利用Python爬虫批量获取物流（快递EMS）订单列表的运输路线，源码可在<a href="https://github.com/xxlllq/python_scrapy_express" target="_blank">Github</a>查看，测试数据如下表格：
 <table align="center">
     <tr>
         <td>序号</td> 
@@ -26,7 +26,7 @@ comment: false
         <td >107834689****</td>  
     </tr>
     <tr>
-        <td >*</td>  
+        <td >\*</td>  
         <td >107834689****</td>  
     </tr>
     <tr>
@@ -34,4 +34,3 @@ comment: false
         <td >107834689****</td>  
     </tr>
 </table>
-[Github]:https://github.com/xxlllq/python_scrapy_express
