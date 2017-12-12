@@ -20,4 +20,4 @@ comment: false
   <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
 </dl>
 
-<div align=center><img width="100%" height="auto"src="assets/images/post/2017-12-11-python_scrapy_express_delivery_query/express_data.png"/></div>
+<img width="100%" height="auto"src="assets/images/post/2017-12-11-python_scrapy_express_delivery_query/express_data.png"/>
