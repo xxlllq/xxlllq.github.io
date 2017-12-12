@@ -29,4 +29,5 @@ header = {
 <p style="text-indent: 2em">
 <p style="text-indent: 2em">首先我们需要获取浏览器真实发送请求的各项参数，我们输入正确的订单号（EMS），通过浏览器F12、Network查看本次的请求如下：</p>
 <div style="text-align:center"><img src="/assets/images/post/2017/2017-12-11-python_scrapy_express_delivery_query/scrapy_browser.png"/></div>
-<p style="text-indent: 2em">接下来就是将图中与header对应字段属性值填充到我们构造的header中，然后记下请求的URL地址，之后我们会动态的变化中间的订单号，从而循环的获取相关物流（快递）单号的信息。其中URL与header的其他具体信息请在Github中查看，获取到相关数据后我们通过一定的数据匹配规则将我们需要的数据提取出来，最终就完成了利用Python爬虫批量获取物流（快递EMS）订单列表的运输路线的功能实现。</p>
+<p style="text-indent: 2em">接下来就是将图中与header对应字段属性值填充到我们构造的header中，然后记下请求的URL地址，之后我们会动态的变化中间的订单号，从而循环的获取相关物流（快递）单号的信息。其中URL的动态配置与header的其他具体信息请在<a href="https://github.com/xxlllq/python_scrapy_express" target="_blank">Github</a>中查看。</p>
+<p style="text-indent: 2em">获取到相关数据后我们通过一定的数据匹配规则将我们需要的数据提取出来，最终就完成了利用Python爬虫批量获取物流（快递EMS）订单列表的运输路线的功能实现。</p>
