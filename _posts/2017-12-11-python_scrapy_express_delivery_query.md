@@ -11,10 +11,11 @@ comment: false
 
 ### Python
 
-#### 一直觉得爬虫技术很高大上，然后百度一番发现很多用Python写爬虫，自己以前也没有接触过<a href="https://www.python.org/" target="_blank">Python</a>，感觉这是一个学（zhuang）习（bi）的好机会，测试数据如下表格： 
-  
-  
-  
 <div align=center><img width="100%" height="auto"src="https://github.com/xxlllq/python_scrapy_express/blob/master/express_deal.png"/></div>
+一直觉得爬虫技术很高大上，然后百度一番发现很多用Python写爬虫，自己以前也没有接触过<a href="https://www.python.org/" target="_blank">Python</a>，感觉这是一个学（zhuang）习（bi）的好机会，测试数据如下表格： 
+  
+  
+  
+
   
 <div align=center><img width="100%" height="auto"src="assets/images/post/2017-12-11-python_scrapy_express_delivery_query/express_data.png"/></div>
