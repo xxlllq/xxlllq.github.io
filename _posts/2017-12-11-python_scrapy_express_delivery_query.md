@@ -15,5 +15,16 @@ comment: false
 <p style="text-indent: 2em">所谓爬虫，就像利用一只程序员赋予动态思维的“蜘蛛”，首先随机放置于一个网络节点，这只蜘蛛会获取该网络节点中程序认为有用的信息，并将这些有用信息通过相关规则提取出来，形成我们具体想要的数据。一般该网络节点还会有其他网络节点的链接，所以这只“蜘蛛”就会开始新数据找寻之旅，从而获取源源不断的数据。</p>
 
 ### 实现
-<p style="text-indent: 2em">下面就介绍我们的利用Python爬虫抓取物流（快递）单号的运输路线，首先可用于查询快递运输路线的网站非常多，这里我利用<a href="http://www.kuaidi100.com/">快递100</a></p>
+<p style="text-indent: 2em">下面就介绍我们的利用Python爬虫抓取物流（快递）单号的运输路线，首先可用于查询快递运输路线的网站非常多，这里我利用<a href="http://www.kuaidi100.com/">快递100</a>，接下来就是最关键的事情——模拟浏览器环境获取想要的数据，其中最主要的就是<a href="https://baike.baidu.com/item/cookie/1119?fr=aladdin" target="_blank">Cookie</a>，我们的请求头设置如下：</br>
+```JavaScript
+header  = {
+    'Accept': '',
+    'Accept-Encoding': '',
+    'Accept-Language': '',
+    'Connection': 'keep-alive',
+    'Cookie': '',
+    'User-Agent': ''
+}
+```
+</p>
 
