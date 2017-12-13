@@ -16,7 +16,7 @@ comment: false
 
 ### 实现
 <p style="text-indent: 2em">下面就介绍我们的利用Python爬虫抓取物流（快递）单号的运输路线，首先可用于查询快递运输路线的网站非常多，这里我利用<a href="http://www.kuaidi100.com/">快递100</a>，接下来就是最关键的事情—模拟浏览器环境发送请求，然后获取想要的数据，其中最主要的就是<a href="https://baike.baidu.com/item/cookie/1119?fr=aladdin" target="_blank">Cookie</a>，我们的请求头设置如下：</p>
-{% highlight JavaScript %}
+{% highlight Python %}
 header = {
     'Accept': '',
     'Accept-Encoding': '',
