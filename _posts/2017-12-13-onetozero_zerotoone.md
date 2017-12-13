@@ -35,6 +35,5 @@ number == 1 ? 0 : 1;
 ### 方法四
 <p style="text-indent: 2em">如果要展（kai）示（shi）技（zhuang）术（bi）的话，实现代码如下：</p>
 {% highlight C# %}
-Math.Abs(1 - number)
 Math.Cos(Math.PI * 1 / 2 * number)
 {% endhighlight %}
