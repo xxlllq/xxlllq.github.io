@@ -47,9 +47,10 @@ if (saveFileDialogService.ShowDialog())
     var fileName = saveFileDialogService.GetFullFileName();
     var tableView = ((TableView)MaterielPurchaseGrid.View); 
     tableView.PrintAutoWidth = false; 
-    PrintHelper.ExportToXlsx(tableView, fileName, new XlsxExportOptions() {
-												     ShowGridLines = true, 
-												  }); 
+    PrintHelper.ExportToXlsx(tableView, fileName,
+                            new XlsxExportOptions() {
+								ShowGridLines = true, 
+							}); 
     if (DXMessageBox.Show("是否打开导出文件？", "系统提示",
                          MessageBoxButton.OKCancel, MessageBoxImage.Information) == MessageBoxResult.OK)
         Process.Start(fileName);
