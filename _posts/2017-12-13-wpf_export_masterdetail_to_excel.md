@@ -49,7 +49,7 @@ if (saveFileDialogService.ShowDialog())
     tableView.PrintAutoWidth = false; 
     PrintHelper.ExportToXlsx(tableView, fileName,
                             new XlsxExportOptions() {
-								ShowGridLines = true, 
+                            ShowGridLines = true, 
 							}); 
     if (DXMessageBox.Show("是否打开导出文件？", "系统提示",
                          MessageBoxButton.OKCancel, MessageBoxImage.Information) == MessageBoxResult.OK)
