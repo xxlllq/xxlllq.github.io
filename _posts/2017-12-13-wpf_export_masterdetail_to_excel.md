@@ -11,7 +11,7 @@ comment: false
 
 ### Export Excel
 <p style="text-indent: 2em">WPF的DataGrid导出Excel到指定文件夹很简单，直接利用如下代码即可实现功能。</p>
-```C#
+{% highlight C# %}
    SaveFileDialogService saveFileDialogService = new SaveFileDialogService()
     {
         DefaultExt = "xls",
@@ -27,8 +27,8 @@ comment: false
         if (DXMessageBox.Show("是否打开导出文件？", "系统提示", MessageBoxButton.OKCancel, MessageBoxImage.Information) == MessageBoxResult.OK)
             Process.Start(fileName);
     }
-```
+{% endhighlight %} 
 <p style="text-indent: 2em">只需要将上面的DefaultFileName替换成你想要的Excel文件名，MasterDetailDemo为TableView的Name属性值。</p>
-```C#
+{% highlight C# %}
  <dxg:TableView Name="MasterDetailDemo" PrintAllDetails="True"></dxg:GridControl.View>
-```
+{% endhighlight %} 
