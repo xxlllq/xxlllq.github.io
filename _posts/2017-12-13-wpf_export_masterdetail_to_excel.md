@@ -56,7 +56,7 @@ if (saveFileDialogService.ShowDialog())
         Process.Start(fileName);
 }
 {% endhighlight %} 
-<p style="text-indent: 2em">其中的<span style="font-weight:bold">PrintAutoWidth<span>控制最终输出至Excel中列的是否自适应，Demo中用到的<span style="font-weight:bold">TableView</span>如下:
+<p style="text-indent: 2em">其中的<span style="font-weight:bold">PrintAutoWidth</span>控制最终输出至Excel中列的是否自适应，Demo中用到的<span style="font-weight:bold">TableView</span>如下:
 {% highlight C# %}
  <dxg:TableView Name="MasterDetailDemo" PrintAllDetails="True"></dxg:GridControl.View>
 {% endhighlight %} 
