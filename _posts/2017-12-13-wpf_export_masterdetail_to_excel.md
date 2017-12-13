@@ -35,7 +35,7 @@ if (saveFileDialogService.ShowDialog())
         Process.Start(fileName);
 }
 {% endhighlight %}
-<p style="text-indent: 2em">只需要将上面的DefaultFileName替换成你想要的Excel文件名，MasterDetailDemo为TableView的Name属性值。</p>
+<p style="text-indent: 2em">只需要将上面代码中的<span style="color:#16c2c2;font-weight:bold;">DefaultFileName</span>替换成你想要的Excel文件名，其中<span style="color:#16c2c2;font-weight:bold;">MasterDetailDemo</span>为<span style="font-weight:bold;">TableView</span>的<span style="font-weight:bold">Name</span>属性值。</p>
 
 ### PrintHelper
 
