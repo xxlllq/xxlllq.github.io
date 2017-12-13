@@ -18,12 +18,10 @@ comment: false
         Filter = "Excel 2007+|*.xls",
         DefaultFileName = "You_Want_Excel_Name"
     };
-
     if (saveFileDialogService.ShowDialog())
     {
         var fileName = saveFileDialogService.GetFullFileName();
         (MasterDetailDemo.View as TableView).ExportToXls(fileName);
-
         if (DXMessageBox.Show("是否打开导出文件？", "系统提示", MessageBoxButton.OKCancel, MessageBoxImage.Information) == MessageBoxResult.OK)
             Process.Start(fileName);
     }
