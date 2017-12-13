@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "常见的0、1转换"
+title:  "常见的0-1转换"
 date:   2017-12-13
 categories: "readme"
 tags: [Other]
@@ -16,12 +16,8 @@ comment: false
 #### 方法一
 <p style="text-indent: 2em">最简单粗暴的方法就是<span style="font-weight:bold">c</span>，实现代码如下：</p>
 {% highlight C# %}
-var result = OneToZeroAndZeroToOne(1);
-
-//Function()
-public int OneToZeroAndZeroToOne(int number)
-{
-  return 1-number;
-}
 if(number == 1) 
+  return 0;
+else 
+  return 1;
 {% endhighlight %}
