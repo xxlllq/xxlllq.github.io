@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "WPF导出MasterDetail及所属子级详情至Excel"
-date:   2017-12-11
+date:   2017-12-13
 categories: "readme"
 tags: [WPF, C#, DevExpress]
 author: xxl
