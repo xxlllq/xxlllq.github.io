@@ -29,7 +29,7 @@ number == 1 ? 0 : 1;
 #### 方法三
 <p style="text-indent: 2em">初级++的方法利用Math，实现代码如下：</p>
 {% highlight C# %}
-Math.Abs(1 - number)
+Math.Abs(1 - number) OR (1 - number)
 {% endhighlight %}
 
 #### 方法四
