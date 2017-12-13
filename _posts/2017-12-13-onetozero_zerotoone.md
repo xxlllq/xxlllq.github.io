@@ -3,7 +3,7 @@ layout: post
 title:  "常见的0-1转换"
 date:   2017-12-13
 categories: "readme"
-tags: [Other]
+tags: [Common]
 author: xxl
 comment: false
 ---
