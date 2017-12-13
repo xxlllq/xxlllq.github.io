@@ -7,6 +7,7 @@ tags: [WPF, C#, DevExpress]
 author: xxl
 comment: false
 ---
+利用PrintHelper将WPF中的MasterDetail及所属子级详情导出至Excel
 
 ### Export Excel
 <p style="text-indent: 2em">WPF的DataGrid导出Excel到指定文件夹很简单，直接利用如下代码即可实现功能。</p>
