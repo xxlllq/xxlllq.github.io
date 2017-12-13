@@ -38,8 +38,24 @@ if (saveFileDialogService.ShowDialog())
 <p style="text-indent: 2em">只需要将上面代码中的<span style="color:#16c2c2;font-weight:bold;">DefaultFileName</span>替换成你想要的Excel文件名，其中<span style="color:#16c2c2;font-weight:bold;">MasterDetailDemo</span>为<span style="font-weight:bold;">TableView</span>的<span style="font-weight:bold">Name</span>属性值。</p>
 
 ### PrintHelper
+<p>上面代码已经实现了最常见的DataGrid导出到Excel，但有些时候我们需要将MasterDetail及所属子级详情导出至Excel，这时候可能就需要用到<span style="font-weight:bold">PrintHelper</span>，这时候只需引用DevExpress.Xpf.Printing，然后需要为<span style="font-weight:bold">TableView</span>添加<span style="color:#16c2c2;font-weight:bold;">PrintAllDetails</span>属性，并将上述代码更改成如下：</p>
+{% highlight C# %}
+using DevExpress.Xpf.Printing
 
-<p>需要引用DevExpress.Xpf.Printing</p>
+if (saveFileDialogService.ShowDialog())
+{
+    var fileName = saveFileDialogService.GetFullFileName();
+    var tableView = ((TableView)MaterielPurchaseGrid.View); 
+    tableView.PrintAutoWidth = false; 
+    PrintHelper.ExportToXlsx(tableView, fileName, new XlsxExportOptions() {
+												     ShowGridLines = true, 
+												  }); 
+    if (DXMessageBox.Show("是否打开导出文件？", "系统提示",
+                         MessageBoxButton.OKCancel, MessageBoxImage.Information) == MessageBoxResult.OK)
+        Process.Start(fileName);
+}
+{% endhighlight %} 
+<p style="text-indent: 2em">其中的<span style="font-weight:bold">TableView</span>如下:
 {% highlight C# %}
  <dxg:TableView Name="MasterDetailDemo" PrintAllDetails="True"></dxg:GridControl.View>
 {% endhighlight %} 
