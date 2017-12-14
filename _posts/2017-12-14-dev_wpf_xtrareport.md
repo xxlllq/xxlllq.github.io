@@ -7,3 +7,4 @@ tags: [WPF, C#, DevExpress]
 author: xxl
 comment: false
 ---
+使用DevExpress WPF中的XtraReport进行数据打印。
