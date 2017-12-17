@@ -9,4 +9,4 @@ key: page-about
 ---
 
 个人简介：
-<embed src="assets/pdf/xxl-personal.pdf" width="100%" height="600">  
+<embed src="assets/pdf/mhxf-personal.pdf" width="100%" height="600">  
