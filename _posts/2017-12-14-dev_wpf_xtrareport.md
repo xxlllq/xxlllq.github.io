@@ -34,3 +34,5 @@ comment: false
 <div style="text-align:center"><img height="auto" src="/assets/images/post/2017/2017-12-14-dev_wpf_xtrareport/date_format.png"/></div>
 <p style="text-indent: 2em">如果几个字段需要显示在同一个单元格内，此时需要将几个字段绑定到<strong>Text</strong>上面，具体格式化操作如下图所示（其中的<strong>*</strong>为连接字符，可以自定义）：</p>
 <div style="text-align:center"><img height="auto" src="/assets/images/post/2017/2017-12-14-dev_wpf_xtrareport/binding_LWT.png"/></div>
+<p style="text-indent: 2em">如果需要对相关字段进行统计计算，可按照下面步骤进行相关操作（示例中统计字段为<strong>Length</strong>）：</p>
+<div style="text-align:center"><img height="auto" src="/assets/images/post/2017/2017-12-14-dev_wpf_xtrareport/sum_length.png.png"/></div>
