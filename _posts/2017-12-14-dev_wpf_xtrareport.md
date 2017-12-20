@@ -36,3 +36,6 @@ comment: false
 <div style="text-align:center"><img height="auto" src="/assets/images/post/2017/2017-12-14-dev_wpf_xtrareport/binding_LWT.png"/></div>
 <p style="text-indent: 2em">如果需要对相关字段进行统计计算，可按照下面步骤进行相关操作（示例中统计字段为<strong>Length</strong>）：</p>
 <div style="text-align:center"><img height="auto" src="/assets/images/post/2017/2017-12-14-dev_wpf_xtrareport/sum_length.png"/></div>
+### 效果
+<p style="text-indent: 2em">最终完成的效果如下：</p>
+<div style="text-align:center"><img height="auto" src="/assets/images/post/2017/2017-12-14-dev_wpf_xtrareport/print_result.png"/></div>
