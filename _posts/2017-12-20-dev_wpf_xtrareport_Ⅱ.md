@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "DevExpress WPF中的报表打印—Ⅰ"
-date:   2017-12-14
+title:  "DevExpress WPF中的报表打印—Ⅱ"
+date:   2017-12-20
 categories: "readme"
 tags: [WPF, C#, DevExpress]
 author: xxl
