@@ -23,6 +23,6 @@ comment: false
 #### Add Data Binding
 <p style="text-indent: 2em">至此我们就完成了报表的初步工作，接下来就是利用XtraReports中的Filed List为报表进行数据源绑定操作，具体的绑定步骤如下图片展示：</p>
 <div style="text-align:center"><img height="auto" src="/assets/images/post/2017/2017-12-14-dev_wpf_xtrareport/add_databinding.png"/></div>
-<div style="text-align:center"><img height="auto" src="/assets/images/post/2017/2017-12-14-dev_wpf_xtrareport/add_databinding.png"/></div>
-<div style="text-align:center"><img height="auto" src="/assets/images/post/2017/2017-12-14-dev_wpf_xtrareport/add_databinding.png"/></div>
-<div style="text-align:center"><img height="auto" src="/assets/images/post/2017/2017-12-14-dev_wpf_xtrareport/add_databinding.png"/></div>
+<div style="text-align:center"><img height="auto" src="/assets/images/post/2017/2017-12-14-dev_wpf_xtrareport/data_souce_wizard.png"/></div>
+<div style="text-align:center"><img height="auto" src="/assets/images/post/2017/2017-12-14-dev_wpf_xtrareport/select_viewmodel.png"/></div>
+<div style="text-align:center"><img height="auto" src="/assets/images/post/2017/2017-12-14-dev_wpf_xtrareport/view_item_source.pngw"/></div>
