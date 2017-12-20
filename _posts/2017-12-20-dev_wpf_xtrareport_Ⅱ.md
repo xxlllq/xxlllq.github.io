@@ -19,5 +19,5 @@ comment: false
 <p style="text-indent: 2em">并在操作界面编写的如下表达式，点击OK：</p>
 <div style="text-align:center"><img height="auto" src="/assets/images/post/2017/2017-12-14-dev_wpf_xtrareport/l+w+t.png"/></div>
 <p style="text-indent: 2em">然后新增一列“长+宽+高”，并将TemTotal赋值给该列，同时新增该列的合计信息，最终的显示效果如下：</p>
-<div style="text-align:center"><img height="auto" src="/assets/images/post/2017/2017-12-14-dev_wpf_xtrareport/print_result_1.png.png"/></div>
+<div style="text-align:center"><img height="auto" src="/assets/images/post/2017/2017-12-14-dev_wpf_xtrareport/print_result_1.png"/></div>
 <p style="text-indent: 2em">当然，你也可以按照这种方法进行其他类型字段的操作。</p>
