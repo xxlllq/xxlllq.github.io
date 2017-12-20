@@ -7,7 +7,7 @@ tags: [WPF, C#, DevExpress]
 author: xxl
 comment: false
 ---
-使用DevExpress WPF中的XtraReport进行数据打印。
+使用DevExpress WPF中的XtraReport进行数据打印。其中<a href="https://xxlllq.github.io/readme/2017/12/14/dev_wpf_xtrareport_%E2%85%A0.html" target="_blank">DevExpress WPF中的报表打印—Ⅰ</a>已经介绍了最基本的报表打印功能的实现。
 
 ### 新建项目
 <p style="text-indent: 2em">在VS2015中，创建如下结构的WPF项目：<a href="https://github.com/xxlllq/Dev_Wpf_XtraReport" target="_blank">Github源码</a></p>
