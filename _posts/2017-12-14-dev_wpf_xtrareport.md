@@ -13,8 +13,10 @@ comment: false
 <p style="text-indent: 2em">在VS2015中，创建如下结构的WPF项目：<a href="https://github.com/xxlllq/Dev_Wpf_XtraReport" target="_blank">Github源码</a></p>
 <div style="text-align:center"><img height="auto" src="/assets/images/post/2017/2017-12-14-dev_wpf_xtrareport/devwpfxtrareport.png"/></div>
 <p style="text-indent: 2em">其中<span style="color:#16c2c2;font-weight:bold;">XtraReportDemo</span>文件按照如下方式新建，个人习惯直接创建Empty模板：</p>
-<div style="text-align:center"><img width="60%" height="auto" src="/assets/images/post/2017/2017-12-14-dev_wpf_xtrareport/new_report_cs.png"/></div>
-<div style="text-align:center"><img height="auto" src="/assets/images/post/2017/2017-12-14-dev_wpf_xtrareport/new_xtrareport.png"/></div>
+<div style="text-align:center;display:inline">
+<img width="60%" height="auto" src="/assets/images/post/2017/2017-12-14-dev_wpf_xtrareport/new_report_cs.png" style="margin-right:10px"/>
+<img width="60%" height="auto" src="/assets/images/post/2017/2017-12-14-dev_wpf_xtrareport/new_xtrareport.png"/>
+</div>
 ### Filed List
 <p style="text-indent: 2em">完成上述步骤后，对报表进行如下布局：</p>
 <div style="text-align:center"><img height="auto" src="/assets/images/post/2017/2017-12-14-dev_wpf_xtrareport/table.png"/></div>
