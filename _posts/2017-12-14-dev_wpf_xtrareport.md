@@ -27,4 +27,4 @@ comment: false
 <div style="text-align:center"><img height="auto" src="/assets/images/post/2017/2017-12-14-dev_wpf_xtrareport/select_viewmodel.png"/></div>
 <div style="text-align:center"><img height="auto" src="/assets/images/post/2017/2017-12-14-dev_wpf_xtrareport/view_item_source.png"/></div>
 <div style="text-align:center"><img height="auto" src="/assets/images/post/2017/2017-12-14-dev_wpf_xtrareport/retrieve_the.png"/></div>
-<p style="text-indent: 2em"><strong>点击Finsh</strong>
+<p style="text-indent: 2em">点击<strong>Finsh</strong>完成数据绑定。
