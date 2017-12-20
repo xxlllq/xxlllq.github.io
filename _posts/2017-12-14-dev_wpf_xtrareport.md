@@ -21,10 +21,13 @@ comment: false
 <p style="text-indent: 2em">完成上述步骤后，对报表进行如下布局：</p>
 <div style="text-align:center"><img height="auto" src="/assets/images/post/2017/2017-12-14-dev_wpf_xtrareport/table.png"/></div>
 #### Add Data Binding
-<p style="text-indent: 2em">至此我们就完成了报表的初步工作，接下来就是利用XtraReports中的Filed List为报表进行数据源绑定操作，具体的绑定步骤如下图片展示：</p>
+<p style="text-indent: 2em">至此我们就完成了报表的初步工作，接下来就为报表进行数据源绑定，具体的绑定步骤如下图片展示：</p>
 <div style="text-align:center"><img height="auto" src="/assets/images/post/2017/2017-12-14-dev_wpf_xtrareport/add_databinding.png"/></div>
 <div style="text-align:center"><img height="auto" src="/assets/images/post/2017/2017-12-14-dev_wpf_xtrareport/data_souce_wizard.png"/></div>
 <div style="text-align:center"><img height="auto" src="/assets/images/post/2017/2017-12-14-dev_wpf_xtrareport/select_viewmodel.png"/></div>
 <div style="text-align:center"><img height="auto" src="/assets/images/post/2017/2017-12-14-dev_wpf_xtrareport/view_item_source.png"/></div>
 <div style="text-align:center"><img height="auto" src="/assets/images/post/2017/2017-12-14-dev_wpf_xtrareport/retrieve_the.png"/></div>
-<p style="text-indent: 2em">点击<strong>Finsh</strong>完成数据绑定。
+<p style="text-indent: 2em">点击<strong>Finsh</strong>完成数据绑定。</p>
+<p style="text-indent: 2em">完成数据源绑定后，调出Field List如下图所示：</p>
+<div style="text-align:center"><img height="auto" src="/assets/images/post/2017/2017-12-14-dev_wpf_xtrareport/field_list.png"/></div>
+
