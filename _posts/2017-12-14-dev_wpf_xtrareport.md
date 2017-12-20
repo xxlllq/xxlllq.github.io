@@ -30,4 +30,7 @@ comment: false
 <p style="text-indent: 2em">点击<strong>Finsh</strong>完成数据绑定。</p>
 <p style="text-indent: 2em">完成数据源绑定后，调出Field List如下图所示：</p>
 <div style="text-align:center"><img height="auto" src="/assets/images/post/2017/2017-12-14-dev_wpf_xtrareport/field_list.png"/></div>
-
+<p style="text-indent: 2em">然后拖过直接拖拽完成字段与字段显示位置的对应，其中：可对<strong>Date</strong>字段进行格式化，具体格式化操作如下图所示：</p>
+<div style="text-align:center"><img height="auto" src="/assets/images/post/2017/2017-12-14-dev_wpf_xtrareport/date_format.png"/></div>
+<p style="text-indent: 2em">如果几个字段需要显示在同一个单元格内，此时需要将几个字段绑定到<strong>Text</strong>上面，具体格式化操作如下图所示（其中的<strong>*</strong>为连接字符，可以自定义）：</p>
+<div style="text-align:center"><img height="auto" src="/assets/images/post/2017/2017-12-14-dev_wpf_xtrareport/binding_LWT.png"/></div>
