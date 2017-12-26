@@ -36,3 +36,5 @@ public partial class App : Application
     }
 }
 {% endhighlight %} 
+<p style="text-indent: 2em">点击运行，最终的部分效果图如下：</p>
+<div style="text-align:center"><img height="auto" src="/assets/images/post/2017/2017-12-26-devexpress_localization_zh-CN/result.png"/></div>
