@@ -12,6 +12,7 @@
     a {
         font-weight: $base-font-weight;
         @include link-text-colors( $text-color, $main-color-1);
+		color: #fff;
     }
     .site-logo {
         display: inline-block;
